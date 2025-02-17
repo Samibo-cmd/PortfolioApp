@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio App</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://kit.fontawesome.com/4d997437b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Header section -->
+  <div id="header">
+    <div class="header-container">
+      <nav>
+        <p class="my-name"><span>Port</span>folio</p>
+        <ul id="side-menu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-circle-xmark"></i>
+        </ul>
+        <i class="fa-solid fa-bars"></i>
+      </nav>
+      <div class="homepage">
+        <div class="header-text">
+          <p>Hello, it's me</p>
+          <h1><span>SAMUEL JOSEPH EIBO</span></h1>
+          <p>A frontend developer</p>
+        </div>
+        <div class="profile-pic-container">
+          <img src="img/profile-pic.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About section -->
+
+  <div id="about">
+    <div class="container">
+      <div class="left-side">
+        <img src="img/about-image.jpg">
+      </div>
+      <div class="right-side">
+        <h1 class="heading">About Me</h1>
+        <p class="intro">
+          A motivated, adaptable, ambitious, responsible and career-focused software engineer,
+          always willing to grow career while achieving company goals by utilizing
+          the professional and technical skills developed through studies and past work
+          experiences. I have a methodical, consumer-focused approach to work and a strong drive
+          to see things through to completion. Detail-oriented, organized and meticulous
+          employee. Works at fast pace to meet tight deadlines. Enthusiastic team player ready
+          to contribute to company success.
+        </p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li>ICT skills</li>
+            <li>Teamwork</li>
+            <li>Critical thinking</li>
+            <li>Analytical thinking</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>October 2023 - October 2024</span><br>Project engineer at Lekdmos Construction Company</li>
+            <li><span>January 2021 - November 2021</span><br>ICT personnel at University of Benin Teaching Hospital</li>
+            <li><span>September 2017 - march 2018</span><br>Internship at Unilever Plc</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2024</span><br>Software engineering internship at ALX Africa</li>
+            <li><span>2022</span><br>Fullstack web Development internship at I4GxZURI</li>
+            <li><span>2021</span><br>ICT skills at Depossibilties Digital Academy</li>
+            <li><span>2020</span><br>B. Eng in mechanical engineering at Federal University of Agriculture Makurdi</li>
+            <li><span>2013</span><br>Senior Secondary Certificate Education at St. Andrew's College</li>
+            <li><span>2004</span><br>First School Living Certificate at Methodist Primary School</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services section below -->
+
+  <div id="services">
+    <h1 class="heading">My Services</h1>
+    <div class="services-container">
+      <div class="services-details">
+        <div class="services-list">
+          <div class="service-1">
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Development</h2>
+            <p>
+              Create apps to perform certain functions.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Build web pages and web sites user interface.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="services-image">
+        <img src="img/service-image.jpg">
+      </div>
+  </div>
+  </div>
+
+  <!-----------Portfolio section---------->
+
+  <div id="portfolio">
+    <h1 class="heading">My Works</h1>
+    <div class="portfolio-container">
+      
+      <div class="work-list">
+        <div class="work">
+          <img src="img/work1.jpg" class="work-1-image">
+          <div class="layer">
+            <h3>Twitter Homepage</h3>
+            <p>This is a static Twitter home page clone - A collaboration work</p>
+            <a href="https://samibo-cmd.github.io/TwitterHomePage_Collaboration/">
+              <i class="anchor fa-solid fa-link"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="img/pic-4.jpg" class="work-2-image">
+          <div class="layer">
+            <h3>YouTube Homepage</h3>
+            <p>A static and fully responsive YouTube home page clone</p>
+            <a href="https://samibo-cmd.github.io/YouTube-Homepage/">
+              <i class="anchor fa-solid fa-link"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="img/work5.jpg" class="work-3-image">
+          <div class="layer">
+            <h3>Todo List</h3>
+            <p>A simple todo list to keep track of activities that one wants to carry out in the future</p>
+            <a href="https://samibo-cmd.github.io/Todo-List/">
+              <i class="anchor fa-solid fa-link"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work" class="work-4-image">
+          <img src="img/work4.jpg">
+          <div class="layer">
+            <h3>Rock Paper Scissors</h3>
+            <p>Built a dynamic Rock Paper Scissors game</p>
+            <a href="https://samibo-cmd.github.io/JS-PRS/">
+              <i class="anchor fa-solid fa-link"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!----------------- Contact ------------>
+
+  <div id="contact">
+    <h1 class="heading">Contact Me</h1>
+    
+    <div class="contact-means">
+      <div class="contact-left">
+        <p><i class="fa-solid fa-paper-plane"></i></i>samueleibo12@gmail.com</p>
+        <p></i><i class="fa-solid fa-phone"></i>+2347038309759</p>
+      </div>
+      <div class="contact-right social-icons">
+        <p>Social media handles</p>
+        <div>
+          <a href="https://www.facebook.com/samuel.eibo.31/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/samuel-eibo/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://x.com/EiboSamuel"><i class="fa-brands fa-square-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="download-btn">
+      <a href="img/My CV.pdf"  download class="btn btn2">Download CV</a>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright &copy Samuel. Made with <i class="fa-solid fa-heart"></i></p>
+  </div>
+
+  <script src="cordova.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
