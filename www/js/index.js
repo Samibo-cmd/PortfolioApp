@@ -2,12 +2,6 @@
 let tablinks = document.getElementsByClassName("tab-links");
 let tabcontents = document.getElementsByClassName("tab-contents");
 
-console.log(document.getElementsByClassName("fa-bars"))
-
-/*.addEventListener("click", openMenu ());*/
-
-document.getElementsByClassName("fa-circle-xmark").addEventListener("click", closeMenu ());
-
 function opentab(tabname) {
   for (tablink of tablinks) {
     tablink.classList.remove("active-link");
